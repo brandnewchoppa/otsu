@@ -68,7 +68,7 @@ Once we got the thresholds, the image is quantized into $N + 1$ distinct levels.
 
 $quantizedImage = zeros(size(img));$
 
-$$levels = linspace(0, 1, N+1);$
+$levels = linspace(0, 1, N+1);$
 
 $\text{for } i = 1:N$
 
