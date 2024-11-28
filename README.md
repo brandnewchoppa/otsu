@@ -3,9 +3,9 @@
 Otsu's method is widely used in *Computer Vision* and *Image Processing*, where it used to perform automatic image thresholding. The goal of Otsu's method is to find the optimal thresholds that maximize the between-class variance, by exhaustively searches for the threshold that maximizes the between-class variance, defined as a weighted sum of variances of the two classes:
 
 
-
+```matlab
 $σ^2_b(t) = w_0w_1(m_0 - m_1)^2$
-
+```
 
 
 Where $w_0$ and $w_1$ are the weights of the background and foreground classes respectively, $m_0$ and $m_1$ are the means of the background and foreground pixel intensities.
