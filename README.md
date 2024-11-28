@@ -86,15 +86,15 @@ $quantizedImage(img <= thresholds(1)) = levels(1);$
 
 ### Test Cases (N=4)
 
-| ![](AnimeGirl GrayScale) | ![](./images/AnimeGirl_GrayScale.png) |
+| ![](./images/AnimeGirl_GrayScale.png) | ![](./images/AnimeGirl_Quantized.png) |
 | ------------------------------------------------------------- | ------------------------------------------------------------- |
 | $\text{Grayscale Image}$                                      | $\text{Quantized Image}$                                      |
 
-| ![](AnimeGirl GrayScale) | ![](./images/AnimeGirl_Quantized.png) |
+| ![](./images/DenoisedImage_GrayScale.png) | ![](./images/DenoisedImage_Quantized.png) |
 | ------------------------------------------------------------------ | ----------------------------------------------------------------- |
 | $\text{Grayscale Image}$                                           | $\text{Quantized Image}$                                          |
 
-| ![](C:\Users\choppa\Documents\MATLAB\Polar_GraysScale.png) | ![](C:\Users\choppa\Documents\MATLAB\Polar_Quantized.png) |
+| ![](./images/Polar_GraysScale.png) | ![](./images/Polar_Quantized.png) |
 | ---------------------------------------------------------- | --------------------------------------------------------- |
 | $\text{Grayscale Image}$                                   | $\text{Quantized Image}$                                  |
 
